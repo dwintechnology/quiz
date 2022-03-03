@@ -1,0 +1,29 @@
+.logOut {
+    font-size: 18px;
+    font-family: Poppins; ;
+    color: #696f79;
+    button {
+        background-color: #f0e9e9;
+        margin-bottom: 4%;
+        width: 185px;
+        border-radius: 30px;
+        height: 45px;
+        border: 0;
+        font-weight: 600;
+    }
+    button:hover{
+        background-color: #8692A6;
+        color: #f0e9e9;
+        .imgLogOut *{
+            fill:#f0e9e9;
+            
+        }
+    }
+    svg {
+        margin-right: 10px;
+    }
+    .imgLogOut *{
+        fill:#696F79;
+        
+    }
+}
