@@ -1,0 +1,23 @@
+.dashBoardBlock {
+    font-size: 18px;
+    color:  #f0e9e9;;
+    ;
+    button {
+        background-color: #696F79;
+        margin-bottom: 4%;
+        width: 185px;
+        border-radius: 30px;
+        height: 45px;
+        border: 0;
+        font-weight: 600;
+        .imgDashBoard *{
+            fill:#f0e9e9;
+            
+        }
+    }
+    
+    svg{
+        margin-right: 10px;
+    }
+}
+

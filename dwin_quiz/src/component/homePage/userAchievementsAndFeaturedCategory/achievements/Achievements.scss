@@ -1,0 +1,28 @@
+.userAchievements {
+    border: 1px black solid;
+    width: 50%;
+    padding: 6px;
+    font-size: 20px;
+    color: #696f79;
+    line-height: 15px;
+    font-family: Poppins;
+
+    .achievementsBody {
+        margin-left: 12px;
+        -webkit-box-shadow: 0px 10px 13px -7px #000000, 50px 5px 15px 5px rgba(0, 0, 0, 0);
+        box-shadow: 0px 10px 18px -11px #000000, 50px 5px 15px 5px rgba(0, 0, 0, 0);
+        border-radius: 30px;
+        width: 95%;
+        height: 95%;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    img {
+        width: 180px;
+        height: 80px;
+    }
+}

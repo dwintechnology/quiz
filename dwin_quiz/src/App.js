@@ -1,11 +1,10 @@
 import './App.scss';
-import ConstantlyPage from './Componet/constantlyPage/ConstantlyPage';
+import ConstantlyPage from './component/constantly-page/Component';
 
 function App() {
   return (
-
     <div className="App">
-      <ConstantlyPage/>
+      <ConstantlyPage />
     </div>
   );
 }
