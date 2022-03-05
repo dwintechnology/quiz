@@ -1,9 +1,116 @@
 .userInformation {
     width: 95%;
     height: 35%;
-    border: 1px black solid;
-    img {
+    display: flex;
+    flex-direction: row;
+
+    .userIcon {
         max-width: 210px;
         height: 180px;
+    }
+
+    .userName {
+        margin-bottom: 0;
+        margin-top: 9px;
+        margin-left: 20px;
+        font-size: 20px;
+        font-weight: 700;
+        color: #696f79;
+    }
+    .userBonusLine {
+        width: 20px;
+        height: 20px;
+    }
+    .information {
+        width: 100%;
+
+        .userBonus{
+            margin: 0;
+            margin-left: 22px;
+            font-size: 17px;
+            font-family:Poppins ;
+            color: #696f79;
+        }
+
+        .BonusLine {
+            position: absolute;
+            left: 480px;
+        }
+        .BonusLine1 {
+            position: relative;
+            height: 23px;
+            width: 400px;
+            left: 17px;
+            top: -3px;
+        }
+    }
+    .body {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 20px;
+       
+        h2 {
+            font-family: Poppins;
+            font-weight: 700;
+            margin: 0;
+            color: #696f79;
+            font-size: 25px;
+        }
+        h5 {
+            font-family: Poppins;
+            font-weight: 400;
+            margin: 0;
+            color: #696f79;
+            font-size: 16px;
+        }
+        .flagBlock {
+            display: flex;
+            flex-direction: row;
+        }
+        .timeBlock {
+            display: flex;
+            flex-direction: row;
+        }
+        .correctAnswersBlock {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+    .flagImgBlock {
+        background-color: rgb(240, 240, 240);
+        width: 60px;
+        height: 60px;
+        border-radius: 10px;
+        margin-right: 10px;
+        .flag {
+            margin-top: 15px;
+            margin-left: 15px;
+            width: 30px;
+        }
+    }
+    .timeImgBlock {
+        background-color: rgb(240, 240, 240);
+        width: 60px;
+        height: 60px;
+        border-radius: 10px;
+        margin-right: 10px;
+        .time {
+            margin-top: 15px;
+            margin-left: 15px;
+            width: 30px;
+        }
+    }
+    .correctAnswersImgBlock {
+        background-color: rgb(240, 240, 240);
+        width: 60px;
+        height: 60px;
+        border-radius: 10px;
+        margin-right: 10px;
+        .correctAnswers {
+            margin-top: 15px;
+            margin-left: 15px;
+            width: 30px;
+        }
     }
 }

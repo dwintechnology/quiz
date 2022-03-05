@@ -1,15 +1,15 @@
 .userFeaturedCategory {
-    border: 1px black solid;
     width: 50%;
     padding: 6px;
     font-size: 20px;
-    color: #696f79;
+    color: #696F79;
     line-height: 15px;
     font-style: Bold;
     font-family: Poppins;
     .title{
         display: flex;
         justify-content: space-between;
+        margin-bottom: 5px;
     }
     button {
         margin-right: 0px;
@@ -30,7 +30,7 @@
         }
         img {
             border-radius: 20px;
-            margin: 7px;
+            margin: 5px;
             width: 200px;
             height: 125px;
         }
@@ -38,13 +38,14 @@
             position: absolute;
             font-weight: 500;
             color: #000;
+            margin: 0;
         }
         .Technology {
-            bottom: 4px;
+            bottom: 14px;
             right: 20px;
         }
         .Medical {
-            bottom: 4px;
+            bottom: 14px;
             left: 125px;
         }
         .History {
