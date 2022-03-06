@@ -13,14 +13,13 @@ export default function MenuBlock() {
             <div>
                 <div className='dashBoardBlock'>
                     <button
-                        style={{ cursor: 'pointer', }}
                         onClick={useCallback(() => navigate('/home'), [navigate])}>
                         <ImgDashBoard className='imgDashBoard' />
                         DashBoard
                     </button>
                 </div>
                 <div className='supportBlock'>
-                    <button style={{ cursor: 'pointer', }}
+                    <button 
                         onClick={useCallback(() => navigate('/support'), [navigate])} >
                         <ImgSupport className='imgSupportBlock' />
                         <div>Support</div>
@@ -28,7 +27,7 @@ export default function MenuBlock() {
 
                 </div>
                 <div className='notificationBlock'>
-                    <button style={{ cursor: 'pointer', }}
+                    <button
                         onClick={useCallback(() => navigate('/notification'), [navigate])}
                     > <ImgNotification className='identificationBlock' />Notification</button>
                 </div>

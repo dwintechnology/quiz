@@ -8,15 +8,24 @@
 }
 .dashBoardBlock {
     font-size: 18px;
-    color: #f0e9e9;
+    color: #696f79;
     button {
-        background-color: #696f79;
+        background-color: #f0e9e9;
         margin-bottom: 4%;
         width: 185px;
         border-radius: 30px;
         height: 45px;
         border: 0;
         font-weight: 600;
+        cursor: pointer;
+
+        .imgDashBoard * {
+            fill: #696f79;
+        }
+    }
+    button:hover {
+        background-color: #696f79;
+        color: #f0e9e9;
         .imgDashBoard * {
             fill: #f0e9e9;
         }
@@ -43,6 +52,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+        cursor: pointer;
     }
     button:hover {
         background-color: #696f79;
@@ -70,6 +80,7 @@
         height: 45px;
         font-weight: 600;
         border: 0;
+        cursor: pointer;
     }
     button:hover {
         background-color: #696f79;

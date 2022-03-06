@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router';
 import './App.scss';
-import ConstantlyPage from './component/constantly-page/Component';
+import ConstantlyPage from './component/constantly-page/ConstantlyPage';
 import LOgin from './LOgin';
 
 function App() {
