@@ -1,0 +1,60 @@
+.userFeaturedCategory {
+    width: 50%;
+    padding: 6px;
+    font-size: 20px;
+    color: #696F79;
+    line-height: 15px;
+    font-style: Bold;
+    font-family: Poppins;
+    .title{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+    }
+    button {
+        margin-right: 0px;
+        font-size: 15px;
+        font-weight: 100;
+        border: 0;
+        background-color: #fff;
+    }
+    .featuredCategoryBody {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+
+        div {
+            position: relative;
+        }
+        img {
+            border-radius: 20px;
+            margin: 5px;
+            width: 200px;
+            height: 125px;
+        }
+        h4 {
+            position: absolute;
+            font-weight: 500;
+            color: #000;
+            margin: 0;
+        }
+        .Technology {
+            bottom: 14px;
+            right: 20px;
+        }
+        .Medical {
+            bottom: 14px;
+            left: 125px;
+        }
+        .History {
+            left: 25px;
+            top: 13px;
+        }
+        .Agriculture {
+            right: 100px;
+            top: 13px;
+        }
+    }
+}

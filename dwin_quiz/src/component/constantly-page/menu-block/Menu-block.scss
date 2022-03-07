@@ -1,0 +1,98 @@
+.menuBlock {
+    display: flex;
+    width: 18%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.dashBoardBlock {
+    font-size: 18px;
+    color: #696f79;
+    button {
+        background-color: #f0e9e9;
+        margin-bottom: 4%;
+        width: 185px;
+        border-radius: 30px;
+        height: 45px;
+        border: 0;
+        font-weight: 600;
+        cursor: pointer;
+
+        .imgDashBoard * {
+            fill: #696f79;
+        }
+    }
+    button:hover {
+        background-color: #696f79;
+        color: #f0e9e9;
+        .imgDashBoard * {
+            fill: #f0e9e9;
+        }
+    }
+
+    svg {
+        margin-right: 10px;
+    }
+}
+
+.supportBlock {
+    font-size: 18px;
+    font-family: Poppins;
+    color: #696f79;
+
+    button {
+        background-color: #f0e9e9;
+        margin-bottom: 4%;
+        width: 185px;
+        border-radius: 30px;
+        height: 45px;
+        border: 0;
+        font-weight: 600;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #696f79;
+        color: #f0e9e9;
+        .imgSupportBlock * {
+            fill: #f0e9e9;
+        }
+    }
+    svg {
+        margin-right: 10px;
+        margin-left: 23px;
+    }
+    .imgSupportBlock * {
+        fill: #696f79;
+    }
+}
+.notificationBlock {
+    font-size: 18px;
+    color: #696f79;
+    button {
+        background-color: #f0e9e9;
+        margin-bottom: 4%;
+        width: 185px;
+        border-radius: 30px;
+        height: 45px;
+        font-weight: 600;
+        border: 0;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #696f79;
+        color: #f0e9e9;
+        .identificationBlock * {
+            fill: #f0e9e9;
+        }
+    }
+    svg {
+        margin-right: 10px;
+    }
+    .identificationBlock * {
+        fill: #696f79;
+    }
+}

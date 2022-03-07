@@ -1,0 +1,15 @@
+.userBlock{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    img{
+        width: 60px;
+    }
+    h3{
+        font-size: 18px;
+        margin: 0px;
+        margin-left: 10px;
+        font-family: Poppins;
+        color: #696F79;
+    }
+}
