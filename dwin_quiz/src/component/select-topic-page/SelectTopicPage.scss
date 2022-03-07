@@ -1,0 +1,63 @@
+.selectTopicBlock {
+    display: flex;
+    width: 98%;
+    height: 98%;
+
+    flex-direction: column;
+
+    .selectTopicBlockTitle {
+        margin-left: 28px;
+
+        h2 {
+            font-family: Poppins;
+            color: #696f79;
+            font-weight: 700;
+            font-size: 30px;
+            margin: 0;
+        }
+        h4 {
+            font-weight: 400;
+            font-family: Poppins;
+            color: #696f79;
+            font-size: 17px;
+        }
+    }
+
+    .selectTopicBlockTitleBody {
+        height: 55vh;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+
+        
+        div {
+            width: 300px;
+            height: 45%;
+            position: relative;
+
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 25px;
+                cursor: pointer;
+            }
+            img:hover {
+                border: 2px white solid;
+            }
+            h5 {
+                position: absolute;
+                font-weight: 700;
+                top: 0px;
+                left: 16px;
+                font-size: 21px;
+            }
+
+            .whiteH5 {
+                color: white;
+            }
+        }
+    }
+}

@@ -9,7 +9,7 @@
 .dashBoardBlock {
     font-size: 18px;
     color: #696f79;
-    button {
+    .buttonDashBoard {
         background-color: #f0e9e9;
         margin-bottom: 4%;
         width: 185px;
@@ -23,7 +23,7 @@
             fill: #696f79;
         }
     }
-    button:hover {
+    .buttonDashBoard:hover {
         background-color: #696f79;
         color: #f0e9e9;
         .imgDashBoard * {
@@ -34,6 +34,21 @@
     svg {
         margin-right: 10px;
     }
+    .activeButton {
+        background-color: #696f79;
+        color: #f0e9e9;
+        margin-bottom: 4%;
+        width: 185px;
+        border-radius: 30px;
+        height: 45px;
+        border: 0;
+        font-weight: 600;
+        cursor: pointer;
+
+        .imgDashBoard * {
+            fill: #f0e9e9;
+        }
+    }
 }
 
 .supportBlock {
@@ -41,7 +56,7 @@
     font-family: Poppins;
     color: #696f79;
 
-    button {
+    .buttonSupportBlock {
         background-color: #f0e9e9;
         margin-bottom: 4%;
         width: 185px;
@@ -54,7 +69,7 @@
         align-items: center;
         cursor: pointer;
     }
-    button:hover {
+    .buttonSupportBlock:hover {
         background-color: #696f79;
         color: #f0e9e9;
         .imgSupportBlock * {
@@ -68,11 +83,29 @@
     .imgSupportBlock * {
         fill: #696f79;
     }
+    .activeButtonSupportBlock {
+        background-color: #696f79;
+        color: #f0e9e9;
+        margin-bottom: 4%;
+        width: 185px;
+        border-radius: 30px;
+        height: 45px;
+        border: 0;
+        font-weight: 600;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        cursor: pointer;
+
+        .imgSupportBlock * {
+            fill: #f0e9e9;
+        }
+    }
 }
 .notificationBlock {
     font-size: 18px;
     color: #696f79;
-    button {
+    .buttonNotificationBlock {
         background-color: #f0e9e9;
         margin-bottom: 4%;
         width: 185px;
@@ -82,7 +115,7 @@
         border: 0;
         cursor: pointer;
     }
-    button:hover {
+    .buttonNotificationBlock:hover {
         background-color: #696f79;
         color: #f0e9e9;
         .identificationBlock * {
@@ -94,5 +127,21 @@
     }
     .identificationBlock * {
         fill: #696f79;
+    }
+
+    .activeButtonNotificationBlock {
+        background-color: #696f79;
+        color: #f0e9e9;
+        margin-bottom: 4%;
+        width: 185px;
+        border-radius: 30px;
+        height: 45px;
+        font-weight: 600;
+        border: 0;
+        cursor: pointer;
+
+        .identificationBlock * {
+            fill: #f0e9e9;
+        }
     }
 }
