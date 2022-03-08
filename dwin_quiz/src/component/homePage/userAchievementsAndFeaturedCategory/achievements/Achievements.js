@@ -12,19 +12,19 @@ export default function Achievements() {
             <div className='achievementsBody'>
                 <div>
                     <img src={medal1} alt='medal1' />
-                    <h6></h6>
+                    <h6>Best Time</h6>
                 </div>
                 <div>
                     <img src={medal2} alt='medal2' />
-                    <h6></h6>
+                    <h5>5 Win</h5>
                 </div>
                 <div>
                     <img src={medal3} alt='medal3' />
-                    <h6></h6>
+                    <h6>Best Result</h6>
                 </div>
                 <div>
                     <img src={medal4} alt='medal4' />
-                    <h6></h6>
+                    <h5>1 Win</h5>
                 </div>
 
             </div>

@@ -1,8 +1,12 @@
 import './Start-button.scss';
+import { useNavigate } from 'react-router';
+import { useCallback } from 'react';
 
 export default function StartButton(){
-
+const navigate= useNavigate()
     return (
-        <button className="startButton" style={{cursor:'pointer',}}>Start Quiz</button>
+        <button className="startButton"
+            onClick={useCallback(() => navigate('/selectTopic'), [navigate])}   
+        >Start Quiz</button>
     )
 }
