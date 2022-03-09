@@ -1,3 +1,4 @@
+import React from "react"
 import './UserInformation.scss'
 import UserImg from '../../../img/UserImg.svg'
 import Flag from '../../../img/Flag.svg'

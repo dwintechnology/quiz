@@ -1,3 +1,4 @@
+import React from "react"
 import Body from './body/Body';
 import './ConstantlyPage.scss';
 import MenuBlock from './menu-block/Menu-block';

@@ -1,0 +1,96 @@
+.MedicalQuizBlock {
+    width: 98%;
+    height: 98%;
+    .divStartButton {
+        padding-right: 30px;
+        display: flex;
+        height: 8vh;
+        justify-content: end;
+        .startButton{
+            color: white;
+            height: 47px;
+        }
+        .startButton:hover{
+            border: 1px solid white;
+        }
+      
+    }
+
+    .MedicalQuizBlockTitle {
+        height: 12vh;
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            font-size: 30px;
+            font-family: Poppins;
+            font-weight: 600;
+            color: #696f79;
+            margin: 0;
+        }
+        h4 {
+            font-size: 16px;
+            font-family: Poppins;
+            font-weight: 400;
+            color: #696f79;
+        }
+    }
+    .imgAndInformationMedicalQuiz {
+        height: 31vh;
+        display: flex;
+        flex-direction: row;
+        img {
+            width: 400px;
+            height: 100%;
+            border-radius: 25px;
+            margin-left: 15px;
+        }
+        .informationMedicalQuiz {
+            width: 50%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            .title {
+                font-size: 16px;
+                color: #696f79;
+
+                h3 {
+                    color: #696f79;
+                    font-weight: 600;
+                }
+            }
+            .answer {
+                font-size: 16px;
+
+                h4 {
+                    color: #696f79;
+                    margin-top: 5px;
+                }
+            }
+            div {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+    .instructions {
+        margin-left: 15px;
+        margin-top: 5px;
+        width: 98%;
+
+        h1 {
+            margin: 0;
+            font-family: Poppins;
+            color: #5c616a;
+            ;
+        }
+
+        div {
+            font-size: 16px;
+            color: #696F79;
+            font-family: Poppins;
+            line-height: 25px;
+        }
+    }
+}
