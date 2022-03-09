@@ -1,3 +1,4 @@
+import React from "react"
 import './Achievements.scss'
 import medal1 from '../../../../img/medal-1.svg'
 import medal2 from '../../../../img/medal-2.svg'
