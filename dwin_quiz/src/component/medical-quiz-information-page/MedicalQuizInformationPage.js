@@ -1,18 +1,18 @@
 import React from 'react'
-import './HistoryQuizInformationPage.scss'
-import History from '../../img/History.jpg'
+import './MedicalQuizInformationPage.scss'
+import Medical from '../../img/Medical.jpg'
 
-export default function HistoryQuizInformationPage() {
+export default function MedicalQuizPage() {
 
     return (
-        <div className='historyQuizBlock'>
-            <div className='historyQuizBlockTitle'>
-                <h1>History  Quiz</h1>
+        <div className='MedicalQuizBlock'>
+            <div className='MedicalQuizBlockTitle'>
+                <h1>Medical  Quiz</h1>
                 <h4> Read the following instructions </h4>
             </div>
-            <div className='imgAndInformationHistoryQuiz'>
-                <img src={History} alt='historyImg' />
-                <div className='informationHistoryQuiz'>
+            <div className='imgAndInformationMedicalQuiz'>
+                <img src={Medical} alt='medicalImg' />
+                <div className='informationMedicalQuiz'>
                     <div className='title'>
                         <h3>Date:</h3>
                         <h3>Time Limit:</h3>
@@ -21,10 +21,10 @@ export default function HistoryQuizInformationPage() {
 
                     </div>
                     <div className='answer'>
-                        <h4>25/05/19</h4>
-                        <h4>10 min</h4>
+                        <h4>02/02/22</h4>
+                        <h4>20 min</h4>
                         <h4>Once</h4>
-                        <h4>250 points</h4>
+                        <h4>300 points</h4>
                     </div>
 
                 </div>

@@ -1,3 +1,4 @@
+import React from "react"
 import SearchBlock from "./search-block/Search";
 import StartButton from "./start-button/Start-button";
 import './Title-block.scss'

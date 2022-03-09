@@ -1,4 +1,4 @@
-.agricultureQuizBlock {
+.MedicalQuizBlock {
     width: 98%;
     height: 98%;
     .divStartButton {
@@ -13,10 +13,10 @@
         .startButton:hover{
             border: 1px solid white;
         }
-
+      
     }
 
-    .agricultureQuizBlockTitle {
+    .MedicalQuizBlockTitle {
         height: 12vh;
         margin-left: 15px;
         display: flex;
@@ -36,7 +36,7 @@
             color: #696f79;
         }
     }
-    .imgAndInformationAgricultureQuiz {
+    .imgAndInformationMedicalQuiz {
         height: 31vh;
         display: flex;
         flex-direction: row;
@@ -46,7 +46,7 @@
             border-radius: 25px;
             margin-left: 15px;
         }
-        .informationAgricultureQuiz {
+        .informationMedicalQuiz {
             width: 50%;
             display: flex;
             flex-direction: row;

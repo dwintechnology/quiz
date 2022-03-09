@@ -1,18 +1,18 @@
 import React from 'react'
-import './HistoryQuizInformationPage.scss'
-import History from '../../img/History.jpg'
+import './GeographyQuizInformationPage.scss'
+import Geography from '../../img/Geography.jpg'
 
-export default function HistoryQuizInformationPage() {
+export default function GeographyQuizPage() {
 
     return (
-        <div className='historyQuizBlock'>
-            <div className='historyQuizBlockTitle'>
-                <h1>History  Quiz</h1>
+        <div className='GeographyQuizBlock'>
+            <div className='GeographyQuizBlockTitle'>
+                <h1>Geography  Quiz</h1>
                 <h4> Read the following instructions </h4>
             </div>
-            <div className='imgAndInformationHistoryQuiz'>
-                <img src={History} alt='historyImg' />
-                <div className='informationHistoryQuiz'>
+            <div className='imgAndInformationGeographyQuiz'>
+                <img src={Geography} alt='geographyImg' />
+                <div className='informationGeographyQuiz'>
                     <div className='title'>
                         <h3>Date:</h3>
                         <h3>Time Limit:</h3>
@@ -21,8 +21,8 @@ export default function HistoryQuizInformationPage() {
 
                     </div>
                     <div className='answer'>
-                        <h4>25/05/19</h4>
-                        <h4>10 min</h4>
+                        <h4>30/11/20</h4>
+                        <h4>15 min</h4>
                         <h4>Once</h4>
                         <h4>250 points</h4>
                     </div>
