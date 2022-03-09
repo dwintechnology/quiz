@@ -3,8 +3,8 @@ import './Timer.scss'
 
 export default function Timer() {
 
-    const [seconds, setSeconds] = useState(18)
-    const [minutes, setMinutes] = useState(0)
+    const [seconds, setSeconds] = useState(0)
+    const [minutes, setMinutes] = useState(10)
 
     useEffect(() => {
         if (seconds === 0 && minutes === 0) {
