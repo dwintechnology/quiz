@@ -22,7 +22,7 @@ export default function MedicalQuizPage() {
                     </div>
                     <div className='answer'>
                         <h4>02/02/22</h4>
-                        <h4>20 min</h4>
+                        <h4>10 min</h4>
                         <h4>Once</h4>
                         <h4>300 points</h4>
                     </div>
