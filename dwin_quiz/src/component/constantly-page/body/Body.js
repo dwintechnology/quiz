@@ -1,5 +1,6 @@
 import React from "react"
-import { Route, Routes, Navigate } from 'react-router-dom';
+import { Route, Routes,Navigate } from 'react-router-dom';
+import GeographyQuizPage from '../../geography-quiz-page/GeographyQuizPage';
 import HomePage from '../../home-page/HomePage'
 import MedicalQuizPage from '../../medical-quiz-page/MedicalQuizPage';
 import SelectTopic from '../../select-topic-page/SelectTopicPage';
@@ -14,6 +15,7 @@ export default function Body() {
                 <Route path='/home' element={<HomePage />} />
                 <Route path='/selectTopic' element={<SelectTopic />} />
                 <Route path='/selectTopic/medical' element={<MedicalQuizPage />} />
+                <Route path='/selectTopic/geography' element={<GeographyQuizPage/>} />
                 {/* <Route path='/*' element={} */}
             </Routes>
         </div>
