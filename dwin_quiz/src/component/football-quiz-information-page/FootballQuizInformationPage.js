@@ -1,18 +1,18 @@
 import React from 'react'
-import './TechnologyQuizPage.scss'
-import Technology from '../../img/Technology.jpg'
+import './FootballQuizInformationPage.scss'
+import Football from '../../img/Football.jpg'
 
-export default function TechnologyQuizPage() {
+export default function FootballQuizInformationPage() {
 
     return (
-        <div className='technologyQuizBlock'>
-            <div className='technologyQuizBlockTitle'>
-                <h1>Technology  Quiz</h1>
+        <div className='footballQuizBlock'>
+            <div className='footballQuizBlockTitle'>
+                <h1>Football  Quiz</h1>
                 <h4> Read the following instructions </h4>
             </div>
-            <div className='imgAndInformationTechnologyQuiz'>
-                <img src={Technology} alt='TechnologyImg' />
-                <div className='informationTechnologyQuiz'>
+            <div className='imgAndInformationFootballQuiz'>
+                <img src={Football} alt='FootballImg' />
+                <div className='informationFootballQuiz'>
                     <div className='title'>
                         <h3>Date:</h3>
                         <h3>Time Limit:</h3>
@@ -21,10 +21,10 @@ export default function TechnologyQuizPage() {
 
                     </div>
                     <div className='answer'>
-                        <h4>21/09/20</h4>
+                        <h4>10/08/21</h4>
                         <h4>10 min</h4>
                         <h4>Once</h4>
-                        <h4>400 points</h4>
+                        <h4>300 points</h4>
                     </div>
 
                 </div>

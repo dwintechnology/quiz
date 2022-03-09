@@ -1,18 +1,18 @@
 import React from 'react'
-import './AgricultureQuizPage.scss'
-import Agriculture from '../../img/Agriculture.jpg'
+import './HistoryQuizInformationPage.scss'
+import History from '../../img/History.jpg'
 
-export default function AgricultureQuizPage() {
+export default function HistoryQuizInformationPage() {
 
     return (
-        <div className='agricultureQuizBlock'>
-            <div className='agricultureQuizBlockTitle'>
+        <div className='historyQuizBlock'>
+            <div className='historyQuizBlockTitle'>
                 <h1>Agriculture  Quiz</h1>
                 <h4> Read the following instructions </h4>
             </div>
-            <div className='imgAndInformationAgricultureQuiz'>
-                <img src={Agriculture} alt='agricultureImg' />
-                <div className='informationAgricultureQuiz'>
+            <div className='imgAndInformationHistoryQuiz'>
+                <img src={History} alt='historyImg' />
+                <div className='informationHistoryQuiz'>
                     <div className='title'>
                         <h3>Date:</h3>
                         <h3>Time Limit:</h3>
