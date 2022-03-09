@@ -22,7 +22,7 @@ export default function GeographyQuizPage() {
                     </div>
                     <div className='answer'>
                         <h4>30/11/20</h4>
-                        <h4>15 min</h4>
+                        <h4>10 min</h4>
                         <h4>Once</h4>
                         <h4>250 points</h4>
                     </div>
