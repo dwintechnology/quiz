@@ -25,7 +25,8 @@ export default function Body() {
                 <Route path='/selectTopic/Football' element={<FootballQuizInformationPage/>} />
                 <Route path='/selectTopic/medical' element={<MedicalQuizInformationPage />} />
                 <Route path='/selectTopic/geography' element={<GeographyQuizInformationPage/>} />
-                <Route path='/*' element={<Timer/>}/>
+                <Route path='/support' element={<Timer/>} />
+                {/* <Route path='/*' element={}/> */}
             </Routes>
         </div>
 
