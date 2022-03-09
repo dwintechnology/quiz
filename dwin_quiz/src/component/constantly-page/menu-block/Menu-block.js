@@ -1,3 +1,4 @@
+import React from "react"
 import LogOut from './log-out-block/LogOut-block'
 import './Menu-block.scss'
 import { ReactComponent as ImgDashBoard } from '../../../img/DashBoard.svg'

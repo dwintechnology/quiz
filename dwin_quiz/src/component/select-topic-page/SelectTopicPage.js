@@ -1,8 +1,10 @@
+import React from 'react'
 import './SelectTopicPage.scss'
 import History from '../../img/History.jpg'
 import Agriculture from '../../img/Agriculture.jpg'
 import Medical from '../../img/Medical.jpg'
-import Technology from '../../img/Technology.jpg'
+import Technology 
+from '../../img/Technology.jpg'
 import Geography from '../../img/Geography.jpg'
 import Football from '../../img/Football.jpg'
 import { useNavigate } from 'react-router';

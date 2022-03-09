@@ -1,3 +1,4 @@
+import React from "react"
 import './FeaturedCategory.scss'
 import History from '../../../../img/History.jpg'
 import Agriculture from '../../../../img/Agriculture.jpg'
