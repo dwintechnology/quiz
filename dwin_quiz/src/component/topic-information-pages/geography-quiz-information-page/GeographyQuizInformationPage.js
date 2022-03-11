@@ -1,6 +1,6 @@
 import React from 'react'
 import './GeographyQuizInformationPage.scss'
-import Geography from '../../img/Geography.jpg'
+import Geography from '../../../img/Geography.jpg'
 
 export default function GeographyQuizPage() {
 

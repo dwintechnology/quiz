@@ -27,7 +27,7 @@ export default function Timer() {
 
     return (
         <div className='timerBlock' style={minutes == 0 && seconds <= 15 ? {color:"red"}: {}}>
-            {minutes}m {seconds}s
+                Timer : {minutes}m {seconds}s
         </div>
 
 

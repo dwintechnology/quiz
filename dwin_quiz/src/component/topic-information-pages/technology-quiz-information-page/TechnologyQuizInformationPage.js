@@ -1,6 +1,6 @@
 import React from 'react'
 import './TechnologyQuizInformationPage.scss'
-import Technology from '../../img/Technology.jpg'
+import Technology from '../../../img/Technology.jpg'
 
 export default function TechnologyQuizInformationPage() {
 

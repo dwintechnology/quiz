@@ -1,6 +1,6 @@
 import React from 'react'
 import './FootballQuizInformationPage.scss'
-import Football from '../../img/Football.jpg'
+import Football from '../../../img/Football.jpg'
 
 export default function FootballQuizInformationPage() {
 

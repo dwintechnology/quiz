@@ -1,6 +1,6 @@
 import React from 'react'
 import './AgricultureQuizInformationPage.scss'
-import Agriculture from '../../img/Agriculture.jpg'
+import Agriculture from '../../../img/Agriculture.jpg'
 
 export default function AgricultureQuizInformationPage() {
 
