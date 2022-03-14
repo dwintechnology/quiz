@@ -1,0 +1,123 @@
+.quiz {
+    width: 98%;
+    height: 98%;
+
+    .title {
+        height: 12vh;
+        margin-left: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        h1 {
+            font-size: 30px;
+            font-family: Poppins;
+            font-weight: 600;
+            color: #696f79;
+            margin: 0;
+        }
+        h4 {
+            font-size: 16px;
+            font-family: Poppins;
+            font-weight: 400;
+            color: #696f79;
+        }
+        .timer {
+            margin-right: 5%;
+        }
+    }
+    .bodyQuiz {
+        height: 31vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        img {
+            width: 400px;
+            height: 100%;
+            border-radius: 25px;
+            margin-left: 15px;
+        }
+        .question {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            font-size: 18px;
+            color: #696f79;
+            font-family: system-ui;
+
+            h2 {
+                font-size: 23px;
+                font-weight: 600;
+                font-family: Poppins;
+                color: #696f79;
+            }
+        }
+    }
+    .answer {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 33vh;
+        margin-left: 15px;
+
+        button {
+            font-size: 15px;
+            color: #4d5459;
+            width: 200px;
+            height: 35px;
+            margin-top: 16px;
+            font-weight: 600;
+            border-radius: 30px;
+            border: 0;
+            width: fit-content;
+            padding: 0 20px;
+            background-color: #ede5e5;
+        }
+        button:hover {
+            color: #ede5e5;
+            background-color: #4d5459;
+        }
+    }
+
+    .score-section {
+        font-size: 23px;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: #4a5b78;
+        font-weight: 700;
+        .medalImg {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+            h4 {
+                color: #4a5b78;
+                font-family: Poppins;
+                font-size: 25px;
+                font-weight: 600;
+            }
+            img {
+                margin-bottom: 10px;
+                width: 100px;
+            }
+        }
+        .buttonGoNewQuiz {
+            margin-top: 20px;
+            border: 0;
+            font-weight: 600;
+            border-radius: 25px;
+            width: 23%;
+            background-color: #f0e9e9;
+            cursor: pointer;
+        }
+        .buttonGoNewQuiz:hover {
+            color: #f0e9e9;
+            background-color: #4a5b78;
+            border: 1px white;
+        }
+    }
+}

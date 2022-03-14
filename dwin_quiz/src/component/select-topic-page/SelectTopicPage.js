@@ -3,14 +3,12 @@ import './SelectTopicPage.scss'
 import History from '../../img/History.jpg'
 import Agriculture from '../../img/Agriculture.jpg'
 import Medical from '../../img/Medical.jpg'
-import Technology 
-from '../../img/Technology.jpg'
+import Technology from '../../img/Technology.jpg'
 import Geography from '../../img/Geography.jpg'
 import Football from '../../img/Football.jpg'
 import { useNavigate } from 'react-router';
-import { useCallback } from 'react';
 
-export default function SelectTopic() {
+export default function Topics() {
     const navigate = useNavigate();
 
     return (
@@ -22,36 +20,35 @@ export default function SelectTopic() {
 
             <div className='selectTopicBlockTitleBody'>
                 <div className='medicalBlock'>
-                    <img src={Medical} alt='medical' className='medicalImg' 
-                    
-                    onClick={useCallback(() => navigate('/selectTopic/medical'), [navigate])}/>
+                    <img src={Medical} alt='medical' className='medicalImg'
+                        onClick={() => navigate('/topic/medical')} />
                     <h5>Medical</h5>
                 </div>
                 <div className='geographyBlock'>
                     <img src={Geography} alt='geography' className='GeographyImg'
-                    onClick={useCallback(() => navigate('/selectTopic/geography'), [navigate])} />
+                        onClick={() => navigate('/topic/geography')} />
                     <h5 className='whiteH5'>Geography</h5>
                 </div>
                 <div className='agricultureBlock'>
                     <img src={Agriculture} alt='agriculture' className='agricultureImg'
-                    onClick={useCallback(() => navigate('/selectTopic/agriculture'), [navigate])} />
+                        onClick={() => navigate('/topic/agriculture')} />
                     <h5 >Agriculture</h5>
                 </div>
-                             
+
                 <div className='historyBlock'>
-                    <img src={History} alt='history' className='historyImg' 
-                    onClick={useCallback(() => navigate('/selectTopic/history'), [navigate])}/>
+                    <img src={History} alt='history' className='historyImg'
+                        onClick={() => navigate('/topic/history')} />
                     <h5>History</h5>
                 </div>
                 <div className='technologyBlock'>
-                    <img src={Technology} alt='technology' className='technologyImg' 
-                    onClick={useCallback(() => navigate('/selectTopic/technology'), [navigate])}/>
+                    <img src={Technology} alt='technology' className='technologyImg'
+                        onClick={() => navigate('/topic/technology')} />
                     <h5 className='whiteH5'>Technology</h5>
-                </div>   
-               
+                </div>
+
                 <div className='footballBlock'>
-                    <img src={Football} alt='football' className='FootballImg' 
-                    onClick={useCallback(() => navigate('/selectTopic/football'), [navigate])}/>
+                    <img src={Football} alt='football' className='FootballImg'
+                        onClick={() => navigate('/topic/football')} />
                     <h5>Football</h5>
                 </div>
             </div>
