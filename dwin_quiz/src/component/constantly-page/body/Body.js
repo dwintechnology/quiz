@@ -9,6 +9,7 @@ import MedicalQuizInformationPage from '../../medical-quiz-information-page/Medi
 import SelectTopic from '../../select-topic-page/SelectTopicPage';
 import TechnologyQuizInformationPage from '../../technology-quiz-information-page/TechnologyQuizInformationPage';
 import './Body.scss'
+import NonExistentPage from '../../../nonExistentPage/NonExistentPage';
 
 export default function Body() {
     return (
@@ -24,7 +25,7 @@ export default function Body() {
                 <Route path='/selectTopic/Football' element={<FootballQuizInformationPage/>} />
                 <Route path='/selectTopic/medical' element={<MedicalQuizInformationPage />} />
                 <Route path='/selectTopic/geography' element={<GeographyQuizInformationPage/>} />
-                {/* <Route path='/*' element={} */}
+                <Route path="/*" element={<NonExistentPage/>} />
             </Routes>
         </div>
 

@@ -4,6 +4,7 @@ import './App.scss';
 import ConstantlyPage from './component/constantly-page/ConstantlyPage';
 import LOgin from './LOgin';
 
+
 function App() {
   return (
     <div className="App">
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path='/*' element={<ConstantlyPage />} />
         <Route path='/logIn' element={<LOgin />} />
+        
       </Routes>
     </div>
   );
