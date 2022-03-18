@@ -14,7 +14,7 @@ export default function Body() {
                 <Route path='/' element={<Navigate to='home' />} />
                 <Route path='/home' element={<HomePage />} />
                 <Route path='/topics' element={<Topics />} />
-                <Route path='/topic/:name' element={<TopicInformationPage/>} />   
+                <Route path='/topic/:name' element={<TopicInformationPage />} />
                 <Route path='/quiz/:name' element={<Quiz />} />
                 {/* <Route path='/*' element={}/> */}
             </Routes>

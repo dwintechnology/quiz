@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
-import './Timer.scss'
+import PropTypes from 'prop-types';
+import './Timer.scss';
 
-export default function Timer() {
+export default function Timer({setShowScore}) {
 
     const [seconds, setSeconds] = useState(0)
     const [minutes, setMinutes] = useState(10)
@@ -9,6 +10,7 @@ export default function Timer() {
     useEffect(() => {
         if (seconds === 0 && minutes === 0) {
             clearInterval(interval)
+            setShowScore(true)
         } else {
 
            
@@ -33,3 +35,6 @@ export default function Timer() {
 
     )
 }
+Timer.propTypes = {
+    setShowScore:PropTypes.func
+  };
