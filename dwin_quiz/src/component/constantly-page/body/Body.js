@@ -4,6 +4,7 @@ import TopicInformationPage from '../../topic-information-pages/TopicInformation
 import HomePage from '../../home-page/HomePage'
 import Topics from '../../select-topic-page/SelectTopicPage';
 import './Body.scss'
+import NonExistentPage from '../../../nonExistentPage/NonExistentPage';
 import Quiz from '../../quiz-pages/Quiz'
 
 export default function Body() {
@@ -16,7 +17,8 @@ export default function Body() {
                 <Route path='/topics' element={<Topics />} />
                 <Route path='/topic/:name' element={<TopicInformationPage />} />
                 <Route path='/quiz/:name' element={<Quiz />} />
-                {/* <Route path='/*' element={}/> */}
+                
+                <Route path='/*' element={<NonExistentPage/>}/>
             </Routes>
         </div>
 
