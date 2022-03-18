@@ -1,8 +1,9 @@
+import Login from './login/Login';
 import React from 'react';
-import { Route, Routes } from 'react-router';
+import { Route, Routes, Navigate } from 'react-router';
 import './App.scss';
 import ConstantlyPage from './component/constantly-page/ConstantlyPage';
-import LOgin from './LOgin';
+
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
     <div className="App">
 
       <Routes>
-        <Route path='/logIn' element={<LOgin />} />
+        <Route path='/' element={<Navigate to='logIn' />} />
+        <Route path='/logIn' element={<Login />} />
         <Route path='/*' element={<ConstantlyPage />} />
       </Routes>
     </div>
