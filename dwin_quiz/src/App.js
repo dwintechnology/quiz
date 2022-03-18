@@ -10,9 +10,8 @@ function App() {
     <div className="App">
 
       <Routes>
-        <Route path='/*' element={<ConstantlyPage />} />
         <Route path='/logIn' element={<LOgin />} />
-        
+        <Route path='/*' element={<ConstantlyPage />} />
       </Routes>
     </div>
   );

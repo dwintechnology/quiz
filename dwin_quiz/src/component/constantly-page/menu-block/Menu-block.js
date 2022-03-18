@@ -27,7 +27,7 @@ export default function MenuBlock() {
                 <div className='supportBlock'>
                     <button
                         className={location.pathname === '/support' ? 'activeButtonSupportBlock' : 'buttonSupportBlock'}
-                        onClick={useCallback(() => navigate('/support'), [navigate])} >
+                        onClick={useCallback(() => navigate('/'), [navigate])} >
                         <ImgSupport className='imgSupportBlock' />
                         <div>Support</div>
                     </button>
@@ -36,7 +36,7 @@ export default function MenuBlock() {
                 <div className='notificationBlock'>
                     <button
                         className={location.pathname === '/notification' ? 'activeButtonNotificationBlock' : 'buttonNotificationBlock'}
-                        onClick={useCallback(() => navigate('/notification'), [navigate])}
+                        onClick={useCallback(() => navigate('/'), [navigate])}
                     > <ImgNotification className='identificationBlock' />Notification</button>
                 </div>
             </div>
