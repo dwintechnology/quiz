@@ -307,4 +307,3 @@ export default questions = [
     },
 ]
 
-console.log(questions)

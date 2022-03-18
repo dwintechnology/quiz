@@ -80,7 +80,7 @@ export default function Quiz() {
         }
 
         const nextCurrent = currentQuestion + 1
-        console.log(nextCurrent)
+
         if (nextCurrent === dataQuestion[0]?.question.length) {
             setShowScore(true)
         }
@@ -128,7 +128,7 @@ export default function Quiz() {
                             <h4> Read the following instructions </h4>
                         </div>
                         <div className='timer'>
-                            <Timer />
+                            <Timer  setShowScore={setShowScore}/>
                         </div>
                     </div>
                     <div className='bodyQuiz'>
