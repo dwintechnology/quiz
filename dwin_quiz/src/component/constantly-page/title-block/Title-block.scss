@@ -1,0 +1,14 @@
+.titleBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3%;
+    justify-content: space-between;
+    padding-bottom: 2%;
+    .homePageTitle {
+        font-size: 30px;
+        color: #696f79;
+        font-family: Poppins;
+        font-weight: 800;
+    }
+}

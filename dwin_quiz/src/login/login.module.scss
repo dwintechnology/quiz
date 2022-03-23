@@ -1,0 +1,164 @@
+*{
+    box-sizing: inherit !important;
+}
+
+.container{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;   
+}
+
+.image{
+    background-image: url(../assets/images/Rectangle433@2x.jpg);
+    width: 660px !important;
+    height: 1024px !important
+}
+
+.content{
+    width: 326px !important;
+    padding-left: 40% !important;
+    padding-top: 37% !important
+}
+
+.icon1{
+    display: flex !important;
+}
+
+.content p{
+    width: 297px !important;
+    height: 304px !important;
+    left: 267px !important;
+    top: 308px !important;
+    font-family: Poppins !important;  
+    font-weight: normal !important;
+    font-size: 18px !important;
+    line-height: 38px !important;
+    display: flex !important;
+    align-items: center !important;
+    color: #FFFFFF !important;
+    text-align: start !important;
+    padding-left: 13px !important
+}
+
+.content h4{
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    line-height: 27px !important;
+    color: white !important;
+    text-align: start !important;
+    padding-left: 13px !important;
+}
+
+.icon2{
+    display: flex !important; 
+    justify-content: flex-end !important
+}
+
+.loginBlock{
+    margin-left: 10% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    margin-top: 12% !important
+}
+
+.loginTitle{
+    font-family: Poppins !important;  
+    font-weight: bold !important;
+    font-size: 30px !important;
+    line-height: 45px !important;
+}
+
+.loginText{
+    color: #8692A6 !important;
+    font-family: Poppins !important;  
+    font-weight: normal !important;
+    font-size: 18px !important;
+    line-height: 28px !important
+}
+
+.form{
+    text-align: start !important;
+}
+
+.email{
+    color: #696F79 !important;
+}
+
+.emailInput{
+    border: none !important;
+    width: 426px !important;
+    height: 64px !important;
+    border-radius: 30px !important;
+    box-shadow: 0px 15px 40px 5px #EDEDED !important
+}
+
+.password{
+    color: #696F79 !important;
+span{
+    border: none !important;
+}
+input:focus{
+    border: none !important;
+}
+input:hover{
+    border: none !important;
+}
+input{
+    border: none !important;
+    width: 426px !important;
+    height: 64px !important;
+    border-radius: 30px !important;
+    box-shadow: 0px 15px 40px 5px #EDEDED !important;
+    padding: 4px 11px !important;
+}
+}
+
+
+
+.checkbox{
+    color: #696F79 !important
+}
+
+.loginButton {
+    border: none !important;
+    color: white !important;
+    background-color: #8692A6 !important;
+    width: 426px !important;
+    height: 64px !important;
+    border-radius: 30px !important;
+    font-family: Poppins !important;
+    font-weight: 600 !important;
+    font-size: 19px !important;
+    line-height: 28px !important;   
+}
+
+
+.loginWithGooButton{
+    border: none !important; 
+    background-color: white !important;
+    width: 426px !important;
+    height: 64px !important;
+    border-radius: 30px !important;
+    box-shadow: 0px 15px 40px 5px #EDEDED !important; 
+    font-weight: 500 !important;
+    font-size: 19px !important;
+    line-height: 23px !important;
+    display: flex !important;
+    align-items: center !important;
+    color: black !important;
+}
+
+.gooIcon{
+    padding-right: 80px !important;
+    padding-left: 36px !important
+}
+
+.ant-input .ant-input-suffix {
+    margin-left: -35px !important;
+}
+
+form input,
+form button {
+    margin-bottom: 8% !important;
+}
